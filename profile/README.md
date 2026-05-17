@@ -1,15 +1,13 @@
-<!-- utm: github / hypersdk_org -->
+<!-- utm: github / hypersdk_org (in href only) -->
 
 <p align="center">
-  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hypersdk/.github/main/profile/assets/github-banner-light.svg">
-      <img alt="HyperSDK Platform — Post-VMware infrastructure by Zyvor AI Labs" src="https://raw.githubusercontent.com/hypersdk/.github/main/profile/assets/github-banner.svg" width="100%">
-    </picture>
+  <a href="https://zyvor.dev?utm_source=github&utm_medium=hypersdk_org">
+    <img src="https://zyvor.dev/img/zavor-logo.webp" alt="Zyvor AI Labs — HyperSDK Platform" width="260">
   </a>
 </p>
 
-<h3 align="center">The migration platform enterprises actually ship — not another CE script dump</h3>
+<h3 align="center">HyperSDK Platform · Zeus suite</h3>
+<p align="center"><sub>Post-VMware infrastructure · Enterprise VM migration · by Zyvor AI Labs</sub></p>
 
 <p align="center">
   <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch demo"/></a>
@@ -44,14 +42,16 @@ $ hyperctl export --provider vmware --vm prod-db-01 --target kvm
 ```
 
 <p align="center">
-  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org">
-    <img src="https://zyvor.dev/screenshots/hypersdk-dashboard-hd.webp" alt="HyperSDK live dashboard" width="92%"/>
-  </a>
+  <img src="https://zyvor.dev/screenshots/hypersdk-dashboard-hd.webp" alt="HyperSDK live dashboard" width="92%"/>
 </p>
 
 <p align="center">
   <b>See the real platform first</b> — migration video, live dashboard, optional 30‑min engineering session<br/>
-  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><b>Open interactive demo →</b></a>
+  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><b>Demo</b></a>
+  ·
+  <a href="https://dashboard.zyvor.dev?utm_source=github&utm_medium=hypersdk_org"><b>Dashboard</b></a>
+  ·
+  <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org"><b>Contact</b></a>
 </p>
 
 ---
@@ -162,8 +162,6 @@ Automated **VirtIO**, bootloader repair, Windows & Linux — migrations that act
 </p>
 
 <p align="center">
-  <a href="https://zyvor.dev?utm_source=github&utm_medium=hypersdk_org"><img src="https://zyvor.dev/img/zavor-logo.webp" height="52" alt="Zyvor"/></a>
-  <br/><br/>
   <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge" alt="Demo"/></a>
   <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Talk_to_sales-22C55E?style=for-the-badge" alt="Sales"/></a>
   <br/><br/>
