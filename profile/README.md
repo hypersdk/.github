@@ -17,12 +17,15 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=800&color=F97316&center=true&vCenter=true&width=940&lines=VMware+%E2%86%92+KVM+%E2%86%92+KubeVirt+%C2%B7+one+pipeline;96.8%25+first-boot+%C2%B7+10+cloud+providers;12+products+%C2%B7+2%2C000%2B+APIs+%C2%B7+400%2B+dashboard+views" alt="Animated tagline"/>
+  <code>VMware → KVM → KubeVirt</code> · <b>96.8%</b> first-boot · <b>12</b> products · <b>2,000+</b> APIs · <b>400+</b> dashboard views
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hypersdk&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=F97316&icon_color=F97316&text_color=E4E4E7&ring_color=F97316&custom_title=Open%20source%20activity" alt="GitHub stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hypersdk&theme=dark&hide_border=true&background=00000000&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=E4E4E7&dates=71717A" alt="Streak"/>
+  <img src="https://img.shields.io/github/stars/hypersdk/hypersdk?style=flat-square&logo=github&label=Stars&labelColor=18181B&color=F97316" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/hypersdk/hypersdk?style=flat-square&logo=github&label=Forks&labelColor=18181B&color=F97316" alt="Forks"/>
+  <img src="https://img.shields.io/badge/CE_repos-3-18181B?style=flat-square&labelColor=F97316" alt="CE repos"/>
+  <img src="https://img.shields.io/badge/Providers-10-06B6D4?style=flat-square&labelColor=18181B" alt="Providers"/>
+  <img src="https://img.shields.io/badge/First_boot-96.8%25-22C55E?style=flat-square&labelColor=18181B" alt="First boot"/>
 </p>
 
 ---
@@ -158,12 +161,7 @@ Automated **VirtIO**, bootloader repair, Windows & Linux — migrations that act
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=120&section=footer&fontSize=28&fontColor=fff&animation=twinkling&text=Ready%20for%20production%3F" alt="Footer wave"/>
-</p>
-
-<p align="center">
+  <b>Ready for production?</b><br/><br/>
   <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge" alt="Demo"/></a>
   <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Talk_to_sales-22C55E?style=for-the-badge" alt="Sales"/></a>
-  <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=hypersdk&label=Profile%20views&color=F97316&style=flat" alt="views"/>
 </p>
