@@ -1,116 +1,171 @@
-<!-- UTM: github / hypersdk_org — hidden in hrefs only -->
-
-[![HyperSDK Platform](https://raw.githubusercontent.com/hypersdk/.github/main/profile/assets/github-banner.svg)](https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org)
+<!-- utm: github / hypersdk_org -->
 
 <p align="center">
   <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org">
-    <img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch demo"/>
-  </a>
-  <a href="https://dashboard.zyvor.dev?utm_source=github&utm_medium=hypersdk_org">
-    <img src="https://img.shields.io/badge/Live_dashboard-8B5CF6?style=for-the-badge&logo=grafana&logoColor=white" alt="Live dashboard"/>
-  </a>
-  <a href="https://zyvor.dev/contact?intent=demo&utm_source=github&utm_medium=hypersdk_org">
-    <img src="https://img.shields.io/badge/Book_walkthrough-22C55E?style=for-the-badge&logo=calendar&logoColor=white" alt="Book walkthrough"/>
-  </a>
-  <a href="mailto:sales@zyvor.dev">
-    <img src="https://img.shields.io/badge/sales@zyvor.dev-2563EB?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email sales"/>
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hypersdk/.github/main/profile/assets/github-banner-light.svg">
+      <img alt="HyperSDK Platform — Post-VMware infrastructure by Zyvor AI Labs" src="https://raw.githubusercontent.com/hypersdk/.github/main/profile/assets/github-banner.svg" width="100%">
+    </picture>
   </a>
 </p>
 
+<h3 align="center">The migration platform enterprises actually ship — not another CE script dump</h3>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&duration=3500&pause=900&color=F97316&center=true&vCenter=true&width=920&lines=Post-VMware+infrastructure+for+Kubernetes%2C+edge+%26+on%E2%80%91prem;One+platform+%C2%B7+One+API+%C2%B7+One+operating+model;Migrate+from+VMware%2C+AWS%2C+Azure%2C+GCP+%E2%86%92+open+KVM" alt="Tagline"/>
+  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch demo"/></a>
+  <a href="https://dashboard.zyvor.dev?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Live_dashboard-8B5CF6?style=for-the-badge&logo=grafana&logoColor=white" alt="Dashboard"/></a>
+  <a href="https://zyvor.dev/contact?intent=demo&utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Book_engineering_call-22C55E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book call"/></a>
+  <a href="mailto:sales@zyvor.dev"><img src="https://img.shields.io/badge/sales@zyvor.dev-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Sales"/></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Products-12-F97316?style=flat-square&labelColor=18181B"/>
-  <img src="https://img.shields.io/badge/APIs-2,000+-8B5CF6?style=flat-square&labelColor=18181B"/>
-  <img src="https://img.shields.io/badge/Dashboard-400%2B_views-2563EB?style=flat-square&labelColor=18181B"/>
-  <img src="https://img.shields.io/badge/First_boot-96.8%25-22C55E?style=flat-square&labelColor=18181B"/>
-  <img src="https://img.shields.io/badge/Providers-10-06B6D4?style=flat-square&labelColor=18181B"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=800&color=F97316&center=true&vCenter=true&width=940&lines=VMware+%E2%86%92+KVM+%E2%86%92+KubeVirt+%C2%B7+one+pipeline;96.8%25+first-boot+%C2%B7+10+cloud+providers;12+products+%C2%B7+2%2C000%2B+APIs+%C2%B7+400%2B+dashboard+views" alt="Animated tagline"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hypersdk&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=F97316&icon_color=F97316&text_color=E4E4E7&ring_color=F97316&custom_title=Open%20source%20activity" alt="GitHub stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hypersdk&theme=dark&hide_border=true&background=00000000&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=E4E4E7&dates=71717A" alt="Streak"/>
 </p>
 
 ---
 
-### See it before you download anything
+## Migrate a VM in 60 seconds
+
+```bash
+# Production-style cutover — Community Edition preview
+$ hyperctl export --provider vmware --vm prod-db-01 --target kvm
+→ Discovered (4 vCPU · 32 GiB · 420 GB)     ✓
+→ Streamed export with integrity checks       ✓
+→ hyper2kvm: QCOW2 + VirtIO + bootloader      ✓
+→ GuestKit: guest validated offline           ✓
+→ First boot on KVM                           ✓  6.8s
+
+# Fleet migrations, SLAs, air-gap, VMware exit programs → talk to Zyvor
+```
 
 <p align="center">
   <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org">
-    <img src="https://zyvor.dev/screenshots/hypersdk-dashboard-hd.webp" alt="HyperSDK Platform dashboard" width="900"/>
+    <img src="https://zyvor.dev/screenshots/hypersdk-dashboard-hd.webp" alt="HyperSDK live dashboard" width="92%"/>
   </a>
 </p>
 
 <p align="center">
-  <b>Migration video</b> + <b>live dashboard</b> + optional <b>30‑minute</b> engineering walkthrough<br/>
-  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><b>Explore the demo →</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.youtube.com/watch?v=9sAl6uhHFQI">YouTube</a>
-  &nbsp;·&nbsp;
-  <a href="https://dashboard.zyvor.dev?utm_source=github&utm_medium=hypersdk_org">Open dashboard</a>
+  <b>See the real platform first</b> — migration video, live dashboard, optional 30‑min engineering session<br/>
+  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><b>Open interactive demo →</b></a>
 </p>
 
 ---
 
-### Pipeline
+## What makes this different
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🎯 One pipeline
+Not 6 vendors. **Export → convert → fix → deploy → operate** in a single Zeus suite.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### ⚡ 96.8% first boot
+Automated **VirtIO**, bootloader repair, Windows & Linux — migrations that actually finish.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 🔒 Enterprise-ready
+**SOC2-ready** · RBAC/SSO · audit logs · **air-gapped** · regulated industries.
+
+</td>
+</tr>
+</table>
+
+---
+
+## Zeus suite · 12 products
 
 ```
-Discover → Export → Convert → Inspect → Deploy → Operate → Observe
-           HyperSDK   hyper2kvm  GuestKit   Aether    v9s      PacketWolf
+   ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+   │  HyperSDK   │───▶│  hyper2kvm  │───▶│  GuestKit   │───▶│   Aether    │
+   │   Export    │    │   Convert   │    │   Inspect   │    │   Deploy    │
+   └─────────────┘    └─────────────┘    └─────────────┘    └──────┬──────┘
+                                                                     │
+                    ┌─────────────┐    ┌─────────────┐    ┌─────────▼──────┐
+                    │ PacketWolf  │◀───│     v9s     │◀───│  VMRogue · …   │
+                    │   Observe   │    │   Manage    │    │  Machina · Forge│
+                    └─────────────┘    └─────────────┘    └────────────────┘
 ```
-
-| Layer | Products |
-|-------|----------|
-| **Migrate** | [**HyperSDK**](https://zyvor.dev/hypersdk?utm_source=github&utm_medium=hypersdk_org) · [**hyper2kvm**](https://zyvor.dev/hyper2kvm?utm_source=github&utm_medium=hypersdk_org) · [**GuestKit**](https://zyvor.dev/guestkit?utm_source=github&utm_medium=hypersdk_org) |
-| **Build · Run** | [**VMRogue**](https://zyvor.dev/vmrogue?utm_source=github&utm_medium=hypersdk_org) · [**Aether**](https://zyvor.dev/aether?utm_source=github&utm_medium=hypersdk_org) · [**v9s**](https://zyvor.dev/v9s?utm_source=github&utm_medium=hypersdk_org) |
-| **Infra** | [**Machina**](https://zyvor.dev/machina?utm_source=github&utm_medium=hypersdk_org) · [**PacketWolf**](https://zyvor.dev/packetwolf?utm_source=github&utm_medium=hypersdk_org) · [**Forge**](https://zyvor.dev/forge?utm_source=github&utm_medium=hypersdk_org) · [**IronWolf**](https://zyvor.dev/ironwolf?utm_source=github&utm_medium=hypersdk_org) |
-| **Cluster** | [**HyperCluster**](https://zyvor.dev/hypercluster?utm_source=github&utm_medium=hypersdk_org) · [**Ragnarok**](https://zyvor.dev/ragnarok?utm_source=github&utm_medium=hypersdk_org) |
 
 <p align="center">
-  <a href="https://zyvor.dev/docs/products?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Full_suite-12_products-18181B?style=for-the-badge&labelColor=F97316" alt="All products"/></a>
-  <a href="https://zyvor.dev/vmware-exit?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/VMware_exit-playbook-F97316?style=for-the-badge&labelColor=18181B" alt="VMware exit"/></a>
-  <a href="https://zyvor.dev/roi?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/ROI_calculator-10B981?style=for-the-badge&labelColor=18181B" alt="ROI"/></a>
-  <a href="https://zyvor.dev/case-studies?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Case_studies-6366F1?style=for-the-badge&labelColor=18181B" alt="Case studies"/></a>
+  <a href="https://zyvor.dev/hypersdk?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/HyperSDK-export-18181B?style=flat-square&logo=kubernetes&logoColor=F97316"/></a>
+  <a href="https://zyvor.dev/hyper2kvm?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/hyper2kvm-convert-18181B?style=flat-square&logo=python&logoColor=F97316"/></a>
+  <a href="https://zyvor.dev/guestkit?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/GuestKit-inspect-18181B?style=flat-square&logo=rust&logoColor=F97316"/></a>
+  <a href="https://zyvor.dev/v9s?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/v9s-KubeVirt-18181B?style=flat-square&logo=kubernetes&logoColor=8B5CF6"/></a>
+  <a href="https://zyvor.dev/packetwolf?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/PacketWolf-eBPF-18181B?style=flat-square&logo=linux&logoColor=8B5CF6"/></a>
+  <a href="https://zyvor.dev/docs/products?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/+_7_more-products-F97316?style=flat-square"/></a>
 </p>
 
 ---
 
-### Proof points
+## Built for every source · every target
 
-| | |
-|---|---|
-| **350 VMs** migrated in **6 weeks** | **$1.2M** annual savings (financial services) |
-| **$720K** cloud spend removed | **96.8%** first-boot success rate |
-| **$100/VM/yr** vs **$1,200–5,000** VMware typical | **10** cloud providers · air-gapped ready |
-
-<details>
-<summary><b>VMware vs HyperSDK — expand</b></summary>
-
-| | VMware | HyperSDK |
-|---|:---:|:---:|
-| 100 VMs / year | ~$120K | **~$10K** |
-| Providers | 1 | **10** |
-| KubeVirt | ✗ | ✓ |
-| Automation | Manual / HCX | **Full pipeline** |
-
-</details>
+<p align="center">
+  <img src="https://img.shields.io/badge/VMware-vSphere-607078?style=for-the-badge&logo=vmware&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hyper--V-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge&logo=openstack&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white"/>
+  <img src="https://img.shields.io/badge/KubeVirt-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+</p>
 
 ---
 
-### ⚠️ GitHub repos = Community Edition only
+## Outcomes teams report
 
-> **Labs & integration tests** — not production VMware exit, SLAs, or fleet programs.
-> **Enterprise** → [Contact sales](https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org) · [sales@zyvor.dev](mailto:sales@zyvor.dev)
+| Metric | Result |
+|:-------|:-------|
+| Fleet migration | **350 VMs** in **6 weeks** |
+| Cost | **$1.2M** / yr saved · **$720K** cloud spend cut |
+| Economics | **$100/VM/yr** vs **$1,200–5,000** VMware typical |
+| Reliability | **96.8%** first-boot · near-zero cutover downtime |
 
-| Evaluation (CE) | Technical docs |
-|-----------------|----------------|
-| [hypersdk](https://github.com/hypersdk/hypersdk) · [hyper2kvm](https://github.com/hypersdk/hyper2kvm) · [guestkit](https://github.com/hypersdk/guestkit) | [Developer guide](https://github.com/hypersdk/hypersdk/blob/main/docs/DEVELOPER_GUIDE.md) · [CE vs Enterprise](https://github.com/hypersdk/hypersdk/blob/main/docs/ce-vs-enterprise.md) |
+> *"Every VM booted on the first try — zero downtime across 500 VMs."*  
+> — Director of IT Operations, federal agency  
+> [More case studies →](https://zyvor.dev/case-studies?utm_source=github&utm_medium=hypersdk_org)
+
+<p align="center">
+  <a href="https://zyvor.dev/vmware-exit?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/VMware_exit_program-F97316?style=for-the-badge"/></a>
+  <a href="https://zyvor.dev/roi?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/ROI_calculator-22C55E?style=for-the-badge"/></a>
+  <a href="https://zyvor.dev/pricing?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Enterprise_pricing-2563EB?style=for-the-badge"/></a>
+</p>
+
+---
+
+## ⚠️ You're on GitHub — that's Community Edition
+
+| ✅ Fine for CE | 🏢 Contact Zyvor for |
+|:---|:---|
+| Labs, CI, single-VM experiments | VMware exit · **100+ VMs** · SLAs |
+| Trying export / convert / guest tools | Air-gapped · compliance packs |
+| Open-source contributors | Architecture review · cutover planning |
+
+**CE repos:** [hypersdk](https://github.com/hypersdk/hypersdk) · [hyper2kvm](https://github.com/hypersdk/hyper2kvm) · [guestkit](https://github.com/hypersdk/guestkit)  
+**Docs:** [Developer guide](https://github.com/hypersdk/hypersdk/blob/main/docs/DEVELOPER_GUIDE.md) · [CE vs Enterprise](https://github.com/hypersdk/hypersdk/blob/main/docs/ce-vs-enterprise.md)
 
 ---
 
 <p align="center">
-  <a href="https://zyvor.dev?utm_source=github&utm_medium=hypersdk_org"><img src="https://zyvor.dev/img/zavor-logo.webp" height="48" alt="Zyvor AI Labs"/></a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=120&section=footer&fontSize=28&fontColor=fff&animation=twinkling&text=Ready%20for%20production%3F" alt="Footer wave"/>
+</p>
+
+<p align="center">
+  <a href="https://zyvor.dev?utm_source=github&utm_medium=hypersdk_org"><img src="https://zyvor.dev/img/zavor-logo.webp" height="52" alt="Zyvor"/></a>
   <br/><br/>
-  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge" alt="Watch demo"/></a>
-  <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Talk_to_sales-22C55E?style=for-the-badge" alt="Talk to sales"/></a>
+  <a href="https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/▶_Watch_demo-F97316?style=for-the-badge" alt="Demo"/></a>
+  <a href="https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org"><img src="https://img.shields.io/badge/Talk_to_sales-22C55E?style=for-the-badge" alt="Sales"/></a>
   <br/><br/>
-  <sub>SOC2-ready · RBAC & SSO · Audit logging · <a href="https://zyvor.dev">zyvor.dev</a></sub>
+  <img src="https://komarev.com/ghpvc/?username=hypersdk&label=Profile%20views&color=F97316&style=flat" alt="views"/>
 </p>
