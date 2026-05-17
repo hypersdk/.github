@@ -45,7 +45,7 @@ $ hyperctl export --provider vmware --vm prod-db-01 --target kvm
 ```
 
 <p align="center">
-  <img src="https://zyvor.dev/screenshots/hypersdk-dashboard-hd.webp" alt="HyperSDK live dashboard" width="92%"/>
+  <img src="https://raw.githubusercontent.com/hypersdk/.github/main/profile/assets/hypersdk-dashboard.jpg" alt="HyperSDK live dashboard" width="92%"/>
 </p>
 
 <p align="center">
