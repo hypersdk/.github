@@ -159,6 +159,8 @@ Automated **VirtIO**, bootloader repair, Windows & Linux — migrations that act
 
 **Start here (sales funnel):** [Demo](https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org) → [ROI](https://zyvor.dev/roi?utm_source=github&utm_medium=hypersdk_org) → [Pricing](https://zyvor.dev/pricing?utm_source=github&utm_medium=hypersdk_org) → [Contact](https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org)
 
+Maintainers: [GitHub org settings](../GITHUB_ORG_SETTINGS.md) · [Lead tracking](../LEADS.md)
+
 ---
 
 <p align="center">
