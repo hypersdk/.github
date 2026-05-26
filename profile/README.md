@@ -156,7 +156,8 @@ Automated **VirtIO**, bootloader repair, Windows & Linux — migrations that act
 | Open-source contributors | Architecture review · cutover planning |
 
 **CE repos:** [hypersdk](https://github.com/hypersdk/hypersdk) · [hyper2kvm](https://github.com/hypersdk/hyper2kvm) · [guestkit](https://github.com/hypersdk/guestkit)  
-**Docs:** [Documentation](https://github.com/hypersdk/hypersdk/blob/main/docs/README.md) · [Getting started](https://github.com/hypersdk/hypersdk/blob/main/docs/getting-started.md)
+
+**Start here (sales funnel):** [Demo](https://zyvor.dev/demo?utm_source=github&utm_medium=hypersdk_org) → [ROI](https://zyvor.dev/roi?utm_source=github&utm_medium=hypersdk_org) → [Pricing](https://zyvor.dev/pricing?utm_source=github&utm_medium=hypersdk_org) → [Contact](https://zyvor.dev/contact?utm_source=github&utm_medium=hypersdk_org)
 
 ---
 
